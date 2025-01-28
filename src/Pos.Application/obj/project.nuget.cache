@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zkwFqk8oB+o=",
+  "success": true,
+  "projectFilePath": "D:\\OurobaSoftTest\\src\\Pos.Application\\Pos.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DBS Mena\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\DBS Mena\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\DBS Mena\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

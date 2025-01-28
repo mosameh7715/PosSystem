@@ -1,0 +1,39 @@
+@PosApi_HostAddress = https://localhost:7015
+
+### Get All Invoices
+GET {{PosApi_HostAddress}}/api/Invoices/GetAllInvoices?pageIndex=1&pageSize=10
+Accept: application/json
+
+### Get Invoice By Id
+GET {{PosApi_HostAddress}}/api/Invoices/GetInvoiceById/8
+Accept: application/json
+
+### Update Invoice
+PUT {{PosApi_HostAddress}}/api/Invoices/UpdateInvoice/8
+Content-Type: application/json
+
+{
+  "posMachineId": 1,
+  "sellerId": 2,
+  "customerId": 3,
+  "itemIds": [1, 2, 3],
+  "discount": 60.0,
+  "tax": 0.0
+}
+
+### Add Invoice
+POST {{PosApi_HostAddress}}/api/Invoices/AddInvoice
+Content-Type: application/json
+
+{
+  "posMachineId": 1,
+  "sellerId": 2,
+  "customerId": 3,
+  "itemIds": [1, 2, 3],
+  "discount": -10.0,
+  "tax": 5.0
+}
+
+### Delete Invoice
+DELETE {{PosApi_HostAddress}}/api/Invoices/DeleteInvoice/7
+Accept: application/json

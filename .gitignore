@@ -1,0 +1,17 @@
+# Visual Studio temporary files
+.vs/
+.suo
+.dtbcachev2
+.futdcachev2
+DocumentLayout.json
+
+# GitHub Copilot files
+CopilotIndices/
+*.db
+*.db-shm
+*.db-wal
+
+# MSBuild evaluation files
+*.metadata.*.bin
+*.projects.*.bin
+*.strings.*.bin

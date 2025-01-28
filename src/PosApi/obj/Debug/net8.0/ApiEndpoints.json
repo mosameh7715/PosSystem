@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "PosApi.Controllers.InvoicesController",
+    "Method": "AddInvoice",
+    "RelativePath": "api/Invoices/AddInvoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoice",
+        "Type": "Pos.Application.DTOs.Invoices.WriteInvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PosApi.Controllers.InvoicesController",
+    "Method": "DeleteInvoice",
+    "RelativePath": "api/Invoices/DeleteInvoice/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PosApi.Controllers.InvoicesController",
+    "Method": "GetAllInvoices",
+    "RelativePath": "api/Invoices/GetAllInvoices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PosApi.Controllers.InvoicesController",
+    "Method": "GetInvoiceById",
+    "RelativePath": "api/Invoices/GetInvoiceById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Pos.Domain.Entities.Invoice",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PosApi.Controllers.InvoicesController",
+    "Method": "UpdateInvoice",
+    "RelativePath": "api/Invoices/UpdateInvoice/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "invoice",
+        "Type": "Pos.Application.DTOs.Invoices.WriteInvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
